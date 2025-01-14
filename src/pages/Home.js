@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div style={styles.container}>
       <EcommerceMain />
-      <h1 style={styles.heading}>Welcome to SAMPROFF MICRO TECHNOLOGY</h1>
+      <h1 style={styles.heading}>Welcome to BNS-SAMPROFF LIMITED COMPANY\</h1>
       <p style={styles.subHeading}>
         Your one-stop shop for the latest laptops and phones!
       </p>
