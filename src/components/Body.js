@@ -17,7 +17,7 @@ const EcommerceMain = () => {
     <div style={styles.container}>
       {/* Navbar */}
       <nav style={styles.navbar}>
-        <div style={styles.logo}>SAMPROFF MICRO TECHNOLOGY</div>
+        <div style={styles.logo}>BNS-SAMPROFF LIMITED COMPANY</div>
         <div style={styles.navLinks}>
           <a href="#home" style={styles.navLink}>
           <Link className="nav-link" to="/laptops">Laptops</Link>
@@ -93,11 +93,10 @@ const EcommerceMain = () => {
       {/* Main Content */}
       <section id="home" style={styles.section}>
         <h2 style={styles.sectionTitle}>
-          Welcome to SAMPROFF MICRO TECHNOLOGY
+          Welcome to BNS-SAMPROFF LIMITED COMPANY
         </h2>
         <p style={styles.description}>
-          Your one-stop shop for troubleshooting laptops, phones, and computer
-          accessories.
+          Your one-stop IT Consultancy, Transport Logistics, & troubleshooting laptops, phones, and computers.
         </p>
       </section>
 
@@ -110,7 +109,12 @@ const EcommerceMain = () => {
         </h3>
         {servicesOpen && (
           <ul style={styles.servicesList}>
-            <li>Troubleshooting laptops and phones</li>
+            <li>Retail Services, Telecom/ICT, Farming/Fesheries</li>
+            <li>FARMING & CROP PATHOLOGIST SERVICES</li>
+            <li>INFORMATION TECHNOLOGY CONSULTANCY</li>
+            <li>RESEARCH & CONSULTANCY</li>
+            <li>SERVICES & GENERAL MECHANT </li>
+            <li>SUPPLY OF GENERAL GOODS & LAPTOPS REPAIRE</li>
             <li>Generating invoices and receipts</li>
             <li>Budget and business profiling</li>
             <li>Website creation and management</li>
